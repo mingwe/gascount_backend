@@ -1,0 +1,14 @@
+mysql> show columns from events
+    -> ;
++---------+---------------+------+-----+---------+----------------+
+| Field   | Type          | Null | Key | Default | Extra          |
++---------+---------------+------+-----+---------+----------------+
+| id      | int(11)       | NO   | PRI | NULL    | auto_increment |
+| mileage | int(11)       | YES  |     | NULL    |                |
+| ltrs    | decimal(10,0) | YES  |     | NULL    |                |
+| date    | int(11)       | YES  |     | NULL    |                |
+| isfull  | tinyint(1)    | YES  |     | NULL    |                |
+| comment | int(11)       | YES  |     | NULL    |                |
++---------+---------------+------+-----+---------+----------------+
+6 rows in set (0,00 sec)
+
