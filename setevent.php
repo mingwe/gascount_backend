@@ -31,7 +31,7 @@ $tablename = 'events';
     $volume = $_POST['volume'];
     $date = $_POST['date'];
 
-    print_r($isfull);die;
+//    print_r($isfull);die;
 
 //    $date=strtotime('22-04-0018');
 
